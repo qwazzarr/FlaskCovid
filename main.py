@@ -20,7 +20,7 @@ NEWS_ARTICLES = []
 def program_start():
     logging.basicConfig(filename='sys.log', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.warning('Program started')
-    return main()
+    return index()
 
 
 
@@ -29,8 +29,12 @@ def index():
     s.run(blocking=False)
     global DELETED_NEWS
     global UPDATES
+
+    s.run(blocking=False)
     #look at request and get all parameters
+
     update_time = request.args.get('update')
+
     update_name = request.args.get('two')
 
 
@@ -42,7 +46,12 @@ def index():
 
     news_update = request.args.get('news')
 
-
+    if(covid_update):
+        #schedule covid update
+        pass
+    if(news_update):
+        #schedule news_update
+        pass
 
 
     update_deleted = request.args.get('update_item')
@@ -62,29 +71,18 @@ def index():
 
 
     #render the page
-    return main()
-
-@app.route('/main')
-def main():
-    s.run(blocking= False)
-
-
-
-
-
-
-
-
     return render_template("index.html",)
+
+
 
 
 def get_data_json():
     updates = UPDATES
     news = NEWS_ARTICLES
     json = dict()
-    if (len(UPDATES) == 0):#consider base cases
+
+    if (len(UPDATES) == 0):#consider base cases make updates
         json['updates'] = [{'title': "None", 'content': "No updates has been scheduled"}]
         json['news'] = [{'title': "None", 'content': 'No updates has been scheduled'}]
     most_recent_update = updates[-1]
     json['title'] = most_recent_update['title']
-    
