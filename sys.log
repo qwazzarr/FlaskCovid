@@ -1,0 +1,331 @@
+12/04/2021 08:44:22 PM Program started
+12/04/2021 08:44:23 PM Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 26, in program_start
+    return index()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 81, in index
+    make_data_update("INITIAL UPDATE")
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 137, in make_data_update
+    update_content = combine_covid_API()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 183, in combine_covid_API
+    week_rate_nation = nation_cases_parse(json_england_data)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 115, in nation_cases_parse
+    total_hospital_cases_over_week += int(day["hospitalCases"])
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+12/04/2021 08:44:23 PM 127.0.0.1 - - [04/Dec/2021 20:44:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:44:24 PM 127.0.0.1 - - [04/Dec/2021 20:44:24] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+12/04/2021 08:44:24 PM 127.0.0.1 - - [04/Dec/2021 20:44:24] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+12/04/2021 08:44:24 PM 127.0.0.1 - - [04/Dec/2021 20:44:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+12/04/2021 08:44:49 PM Program started
+12/04/2021 08:44:50 PM Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 26, in program_start
+    return index()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 81, in index
+    make_data_update("INITIAL UPDATE")
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 137, in make_data_update
+    update_content = combine_covid_API()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 183, in combine_covid_API
+    week_rate_nation = nation_cases_parse(json_england_data)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 115, in nation_cases_parse
+    total_hospital_cases_over_week += int(day["hospitalCases"])
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+12/04/2021 08:44:50 PM 127.0.0.1 - - [04/Dec/2021 20:44:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:44:51 PM Program started
+12/04/2021 08:44:51 PM Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 26, in program_start
+    return index()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 81, in index
+    make_data_update("INITIAL UPDATE")
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 137, in make_data_update
+    update_content = combine_covid_API()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 183, in combine_covid_API
+    week_rate_nation = nation_cases_parse(json_england_data)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 115, in nation_cases_parse
+    total_hospital_cases_over_week += int(day["hospitalCases"])
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+12/04/2021 08:44:51 PM 127.0.0.1 - - [04/Dec/2021 20:44:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:44:52 PM Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py", line 81, in index
+    make_data_update("INITIAL UPDATE")
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 137, in make_data_update
+    update_content = combine_covid_API()
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 183, in combine_covid_API
+    week_rate_nation = nation_cases_parse(json_england_data)
+  File "/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py", line 115, in nation_cases_parse
+    total_hospital_cases_over_week += int(day["hospitalCases"])
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+12/04/2021 08:44:52 PM 127.0.0.1 - - [04/Dec/2021 20:44:52] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+12/04/2021 08:45:23 PM Program started
+12/04/2021 08:45:24 PM 127.0.0.1 - - [04/Dec/2021 20:45:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:45:24 PM 127.0.0.1 - - [04/Dec/2021 20:45:24] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:45:24 PM 127.0.0.1 - - [04/Dec/2021 20:45:24] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:45:24 PM 127.0.0.1 - - [04/Dec/2021 20:45:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:45:24 PM 127.0.0.1 - - [04/Dec/2021 20:45:24] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:47:38 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py', reloading
+12/04/2021 08:47:48 PM Program started
+12/04/2021 08:47:48 PM 127.0.0.1 - - [04/Dec/2021 20:47:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:47:48 PM 127.0.0.1 - - [04/Dec/2021 20:47:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:47:48 PM 127.0.0.1 - - [04/Dec/2021 20:47:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:47:48 PM 127.0.0.1 - - [04/Dec/2021 20:47:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:47:48 PM 127.0.0.1 - - [04/Dec/2021 20:47:48] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:48:15 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py', reloading
+12/04/2021 08:48:23 PM Program started
+12/04/2021 08:48:24 PM 127.0.0.1 - - [04/Dec/2021 20:48:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:48:24 PM 127.0.0.1 - - [04/Dec/2021 20:48:24] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:48:24 PM 127.0.0.1 - - [04/Dec/2021 20:48:24] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:48:24 PM 127.0.0.1 - - [04/Dec/2021 20:48:24] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:48:24 PM 127.0.0.1 - - [04/Dec/2021 20:48:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:48:51 PM Program started
+12/04/2021 08:48:52 PM 127.0.0.1 - - [04/Dec/2021 20:48:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:48:52 PM 127.0.0.1 - - [04/Dec/2021 20:48:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:48:52 PM 127.0.0.1 - - [04/Dec/2021 20:48:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:48:52 PM 127.0.0.1 - - [04/Dec/2021 20:48:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:48:52 PM 127.0.0.1 - - [04/Dec/2021 20:48:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:49:24 PM Program started
+12/04/2021 08:49:25 PM 127.0.0.1 - - [04/Dec/2021 20:49:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:49:25 PM 127.0.0.1 - - [04/Dec/2021 20:49:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:49:25 PM 127.0.0.1 - - [04/Dec/2021 20:49:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:49:25 PM 127.0.0.1 - - [04/Dec/2021 20:49:25] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:49:25 PM 127.0.0.1 - - [04/Dec/2021 20:49:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:50:50 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 08:51:13 PM Program started
+12/04/2021 08:51:14 PM 127.0.0.1 - - [04/Dec/2021 20:51:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:51:14 PM 127.0.0.1 - - [04/Dec/2021 20:51:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:51:14 PM 127.0.0.1 - - [04/Dec/2021 20:51:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:51:14 PM 127.0.0.1 - - [04/Dec/2021 20:51:14] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:51:14 PM 127.0.0.1 - - [04/Dec/2021 20:51:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:52:13 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 08:52:16 PM Program started
+12/04/2021 08:52:17 PM 127.0.0.1 - - [04/Dec/2021 20:52:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:52:17 PM 127.0.0.1 - - [04/Dec/2021 20:52:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:52:17 PM 127.0.0.1 - - [04/Dec/2021 20:52:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:52:17 PM 127.0.0.1 - - [04/Dec/2021 20:52:17] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:52:17 PM 127.0.0.1 - - [04/Dec/2021 20:52:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:52:39 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 08:52:42 PM Program started
+12/04/2021 08:52:43 PM 127.0.0.1 - - [04/Dec/2021 20:52:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:52:43 PM 127.0.0.1 - - [04/Dec/2021 20:52:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:52:43 PM 127.0.0.1 - - [04/Dec/2021 20:52:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:52:43 PM 127.0.0.1 - - [04/Dec/2021 20:52:43] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:52:43 PM 127.0.0.1 - - [04/Dec/2021 20:52:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:52:54 PM  * To enable the debugger you need to enter the security pin:
+12/04/2021 08:52:54 PM  * Debugger pin code: 128-336-383
+12/04/2021 08:52:54 PM 127.0.0.1 - - [04/Dec/2021 20:52:54] "GET /?__debugger__=yes&cmd=printpin&s=HwOoghuz3npSE1uitdyq HTTP/1.1" 200 -
+12/04/2021 08:53:30 PM 127.0.0.1 - - [04/Dec/2021 20:53:30] "GET /?__debugger__=yes&cmd=pinauth&pin=128-336-383&s=HwOoghuz3npSE1uitdyq HTTP/1.1" 200 -
+12/04/2021 08:53:55 PM 127.0.0.1 - - [04/Dec/2021 20:53:55] "GET /?&__debugger__=yes&cmd=print(UPDATES)&frm=140577880916560&s=HwOoghuz3npSE1uitdyq HTTP/1.1" 200 -
+12/04/2021 08:54:09 PM 127.0.0.1 - - [04/Dec/2021 20:54:09] "GET /?&__debugger__=yes&cmd=print(NEWS_ARTICLES)&frm=140577880916560&s=HwOoghuz3npSE1uitdyq HTTP/1.1" 200 -
+12/04/2021 08:54:16 PM 127.0.0.1 - - [04/Dec/2021 20:54:16] "GET /?&__debugger__=yes&cmd=print(json)&frm=140577880916560&s=HwOoghuz3npSE1uitdyq HTTP/1.1" 200 -
+12/04/2021 08:54:56 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 08:55:31 PM Program started
+12/04/2021 08:55:40 PM 127.0.0.1 - - [04/Dec/2021 20:55:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:55:40 PM 127.0.0.1 - - [04/Dec/2021 20:55:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:55:40 PM 127.0.0.1 - - [04/Dec/2021 20:55:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:55:40 PM 127.0.0.1 - - [04/Dec/2021 20:55:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:55:40 PM 127.0.0.1 - - [04/Dec/2021 20:55:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:56:06 PM Program started
+12/04/2021 08:56:14 PM 127.0.0.1 - - [04/Dec/2021 20:56:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:56:14 PM 127.0.0.1 - - [04/Dec/2021 20:56:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:56:14 PM 127.0.0.1 - - [04/Dec/2021 20:56:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:56:14 PM 127.0.0.1 - - [04/Dec/2021 20:56:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:56:14 PM 127.0.0.1 - - [04/Dec/2021 20:56:14] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 08:56:58 PM Program started
+12/04/2021 08:57:56 PM 127.0.0.1 - - [04/Dec/2021 20:57:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 08:57:56 PM 127.0.0.1 - - [04/Dec/2021 20:57:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 08:57:56 PM 127.0.0.1 - - [04/Dec/2021 20:57:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 08:57:56 PM 127.0.0.1 - - [04/Dec/2021 20:57:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 08:57:56 PM 127.0.0.1 - - [04/Dec/2021 20:57:56] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:01:07 PM Program started
+12/04/2021 09:01:09 PM 127.0.0.1 - - [04/Dec/2021 21:01:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:01:10 PM 127.0.0.1 - - [04/Dec/2021 21:01:10] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:01:10 PM 127.0.0.1 - - [04/Dec/2021 21:01:10] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:01:10 PM 127.0.0.1 - - [04/Dec/2021 21:01:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:01:10 PM 127.0.0.1 - - [04/Dec/2021 21:01:10] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:01:40 PM Program started
+12/04/2021 09:01:41 PM 127.0.0.1 - - [04/Dec/2021 21:01:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:01:41 PM 127.0.0.1 - - [04/Dec/2021 21:01:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:01:41 PM 127.0.0.1 - - [04/Dec/2021 21:01:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:01:41 PM 127.0.0.1 - - [04/Dec/2021 21:01:41] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:01:41 PM 127.0.0.1 - - [04/Dec/2021 21:01:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:01:58 PM Program started
+12/04/2021 09:01:59 PM 127.0.0.1 - - [04/Dec/2021 21:01:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:01:59 PM 127.0.0.1 - - [04/Dec/2021 21:01:59] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:01:59 PM 127.0.0.1 - - [04/Dec/2021 21:01:59] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:01:59 PM 127.0.0.1 - - [04/Dec/2021 21:01:59] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:01:59 PM 127.0.0.1 - - [04/Dec/2021 21:01:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:02:38 PM Program started
+12/04/2021 09:03:04 PM 127.0.0.1 - - [04/Dec/2021 21:03:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:03:04 PM 127.0.0.1 - - [04/Dec/2021 21:03:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:03:04 PM 127.0.0.1 - - [04/Dec/2021 21:03:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:03:04 PM 127.0.0.1 - - [04/Dec/2021 21:03:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:03:04 PM 127.0.0.1 - - [04/Dec/2021 21:03:04] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:06:02 PM Program started
+12/04/2021 09:07:39 PM Program started
+12/04/2021 09:07:54 PM Program started
+12/04/2021 09:08:44 PM Program started
+12/04/2021 09:11:00 PM Program started
+12/04/2021 09:11:01 PM 127.0.0.1 - - [04/Dec/2021 21:11:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:11:01 PM 127.0.0.1 - - [04/Dec/2021 21:11:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:11:01 PM 127.0.0.1 - - [04/Dec/2021 21:11:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:11:01 PM 127.0.0.1 - - [04/Dec/2021 21:11:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:11:01 PM 127.0.0.1 - - [04/Dec/2021 21:11:01] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:16:37 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 09:20:17 PM Program started
+12/04/2021 09:20:19 PM 127.0.0.1 - - [04/Dec/2021 21:20:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:20:19 PM 127.0.0.1 - - [04/Dec/2021 21:20:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:20:19 PM 127.0.0.1 - - [04/Dec/2021 21:20:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:20:19 PM 127.0.0.1 - - [04/Dec/2021 21:20:19] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:20:19 PM 127.0.0.1 - - [04/Dec/2021 21:20:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:22:13 PM Program started
+12/04/2021 09:22:14 PM 127.0.0.1 - - [04/Dec/2021 21:22:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:22:14 PM 127.0.0.1 - - [04/Dec/2021 21:22:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:22:14 PM 127.0.0.1 - - [04/Dec/2021 21:22:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:22:14 PM 127.0.0.1 - - [04/Dec/2021 21:22:14] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:22:14 PM 127.0.0.1 - - [04/Dec/2021 21:22:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:23:43 PM Program started
+12/04/2021 09:23:45 PM 127.0.0.1 - - [04/Dec/2021 21:23:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:23:45 PM 127.0.0.1 - - [04/Dec/2021 21:23:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:23:45 PM 127.0.0.1 - - [04/Dec/2021 21:23:45] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:23:45 PM 127.0.0.1 - - [04/Dec/2021 21:23:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:23:45 PM 127.0.0.1 - - [04/Dec/2021 21:23:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:24:55 PM Program started
+12/04/2021 09:24:56 PM 127.0.0.1 - - [04/Dec/2021 21:24:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:24:56 PM 127.0.0.1 - - [04/Dec/2021 21:24:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:24:56 PM 127.0.0.1 - - [04/Dec/2021 21:24:56] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:24:56 PM 127.0.0.1 - - [04/Dec/2021 21:24:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:24:56 PM 127.0.0.1 - - [04/Dec/2021 21:24:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:25:07 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 09:26:30 PM Program started
+12/04/2021 09:26:32 PM 127.0.0.1 - - [04/Dec/2021 21:26:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/04/2021 09:26:32 PM 127.0.0.1 - - [04/Dec/2021 21:26:32] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:26:32 PM 127.0.0.1 - - [04/Dec/2021 21:26:32] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:26:32 PM 127.0.0.1 - - [04/Dec/2021 21:26:32] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:26:32 PM 127.0.0.1 - - [04/Dec/2021 21:26:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:26:41 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/04/2021 09:26:45 PM Program started
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "GET / HTTP/1.1" 200 -
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/04/2021 09:26:46 PM 127.0.0.1 - - [04/Dec/2021 21:26:46] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/04/2021 09:27:47 PM 127.0.0.1 - - [04/Dec/2021 21:27:47] "GET /index HTTP/1.1" 200 -
+12/04/2021 09:27:47 PM 127.0.0.1 - - [04/Dec/2021 21:27:47] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:19:21 PM Program started
+12/05/2021 01:19:21 PM 127.0.0.1 - - [05/Dec/2021 13:19:21] "GET / HTTP/1.1" 200 -
+12/05/2021 01:19:21 PM 127.0.0.1 - - [05/Dec/2021 13:19:21] "GET /index HTTP/1.1" 200 -
+12/05/2021 01:19:21 PM Error on request:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 311, in execute
+    write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 290, in write
+    self.wfile.write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socketserver.py", line 799, in write
+    self._sock.sendall(b)
+OSError: [Errno 41] Protocol wrong type for socket
+12/05/2021 01:19:22 PM 127.0.0.1 - - [05/Dec/2021 13:19:22] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:19:26 PM Program started
+12/05/2021 01:19:26 PM 127.0.0.1 - - [05/Dec/2021 13:19:26] "GET / HTTP/1.1" 200 -
+12/05/2021 01:19:26 PM 127.0.0.1 - - [05/Dec/2021 13:19:26] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:20:04 PM 127.0.0.1 - - [05/Dec/2021 13:20:04] "[35m[1mGET /index?update=13%3A20&two=Eblan+blyat&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/05/2021 01:20:04 PM 127.0.0.1 - - [05/Dec/2021 13:20:04] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:20:04 PM 127.0.0.1 - - [05/Dec/2021 13:20:04] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:20:04 PM 127.0.0.1 - - [05/Dec/2021 13:20:04] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:20:04 PM 127.0.0.1 - - [05/Dec/2021 13:20:04] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/05/2021 01:20:57 PM Program started
+12/05/2021 01:20:57 PM 127.0.0.1 - - [05/Dec/2021 13:20:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/05/2021 01:20:57 PM 127.0.0.1 - - [05/Dec/2021 13:20:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:20:57 PM 127.0.0.1 - - [05/Dec/2021 13:20:57] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:20:57 PM 127.0.0.1 - - [05/Dec/2021 13:20:57] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:20:57 PM 127.0.0.1 - - [05/Dec/2021 13:20:57] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:20:57 PM 127.0.0.1 - - [05/Dec/2021 13:20:57] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/05/2021 01:20:58 PM 127.0.0.1 - - [05/Dec/2021 13:20:58] "GET /index HTTP/1.1" 200 -
+12/05/2021 01:21:27 PM Program started
+12/05/2021 01:21:27 PM 127.0.0.1 - - [05/Dec/2021 13:21:27] "GET / HTTP/1.1" 200 -
+12/05/2021 01:21:27 PM 127.0.0.1 - - [05/Dec/2021 13:21:27] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:21:47 PM 127.0.0.1 - - [05/Dec/2021 13:21:47] "GET /index?update=12%3A21&two=hUESOS&covid-data=covid-data HTTP/1.1" 200 -
+12/05/2021 01:21:47 PM 127.0.0.1 - - [05/Dec/2021 13:21:47] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:22:15 PM 127.0.0.1 - - [05/Dec/2021 13:22:15] "[35m[1mGET /index?update=13%3A22&two=her_sobachii&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/05/2021 01:22:15 PM 127.0.0.1 - - [05/Dec/2021 13:22:15] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:22:15 PM 127.0.0.1 - - [05/Dec/2021 13:22:15] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:22:15 PM 127.0.0.1 - - [05/Dec/2021 13:22:15] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:22:16 PM 127.0.0.1 - - [05/Dec/2021 13:22:16] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/05/2021 01:23:38 PM 127.0.0.1 - - [05/Dec/2021 13:23:38] "GET /index?&__debugger__=yes&cmd=print(update_interval)&frm=140620887421568&s=zqPRG5DFPH8NyZXmBOGU HTTP/1.1" 200 -
+12/05/2021 01:24:15 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py', reloading
+12/05/2021 01:24:31 PM Program started
+12/05/2021 01:24:33 PM 127.0.0.1 - - [05/Dec/2021 13:24:33] "GET / HTTP/1.1" 200 -
+12/05/2021 01:24:33 PM 127.0.0.1 - - [05/Dec/2021 13:24:33] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:24:52 PM 127.0.0.1 - - [05/Dec/2021 13:24:52] "[35m[1mGET /index?update=13%3A24&two=AGA&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/05/2021 01:24:52 PM 127.0.0.1 - - [05/Dec/2021 13:24:52] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:24:52 PM 127.0.0.1 - - [05/Dec/2021 13:24:52] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:24:52 PM 127.0.0.1 - - [05/Dec/2021 13:24:52] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:24:52 PM 127.0.0.1 - - [05/Dec/2021 13:24:52] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/05/2021 01:25:27 PM 127.0.0.1 - - [05/Dec/2021 13:25:27] "GET /index?&__debugger__=yes&cmd=print(make_data_update)&frm=140346872085472&s=imeg6DlPjUw3Y2SEcBoq HTTP/1.1" 200 -
+12/05/2021 01:27:02 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py', reloading
+12/05/2021 01:27:11 PM Program started
+12/05/2021 01:27:11 PM 127.0.0.1 - - [05/Dec/2021 13:27:11] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+12/05/2021 01:27:11 PM 127.0.0.1 - - [05/Dec/2021 13:27:11] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:27:11 PM 127.0.0.1 - - [05/Dec/2021 13:27:11] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:27:11 PM 127.0.0.1 - - [05/Dec/2021 13:27:11] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:27:11 PM Program started
+12/05/2021 01:27:11 PM 127.0.0.1 - - [05/Dec/2021 13:27:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/05/2021 01:27:12 PM 127.0.0.1 - - [05/Dec/2021 13:27:12] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:27:12 PM 127.0.0.1 - - [05/Dec/2021 13:27:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:27:12 PM 127.0.0.1 - - [05/Dec/2021 13:27:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:27:12 PM 127.0.0.1 - - [05/Dec/2021 13:27:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:27:12 PM 127.0.0.1 - - [05/Dec/2021 13:27:12] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/05/2021 01:27:12 PM 127.0.0.1 - - [05/Dec/2021 13:27:12] "GET / HTTP/1.1" 200 -
+12/05/2021 01:27:15 PM Program started
+12/05/2021 01:27:15 PM 127.0.0.1 - - [05/Dec/2021 13:27:15] "GET / HTTP/1.1" 200 -
+12/05/2021 01:27:15 PM 127.0.0.1 - - [05/Dec/2021 13:27:15] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:27:47 PM Program started
+12/05/2021 01:27:48 PM 127.0.0.1 - - [05/Dec/2021 13:27:48] "GET / HTTP/1.1" 200 -
+12/05/2021 01:27:48 PM 127.0.0.1 - - [05/Dec/2021 13:27:48] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:27:53 PM Program started
+12/05/2021 01:27:53 PM 127.0.0.1 - - [05/Dec/2021 13:27:53] "GET / HTTP/1.1" 200 -
+12/05/2021 01:27:53 PM 127.0.0.1 - - [05/Dec/2021 13:27:53] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:27:54 PM 127.0.0.1 - - [05/Dec/2021 13:27:54] "GET /index HTTP/1.1" 200 -
+12/05/2021 01:27:54 PM 127.0.0.1 - - [05/Dec/2021 13:27:54] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "[35m[1mGET /index?update=13%3A28&two=Aga&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/05/2021 01:30:05 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py', reloading

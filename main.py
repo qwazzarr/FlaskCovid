@@ -8,12 +8,15 @@ import json
 import logging
 from uk_covid19 import Cov19API
 
-s = sched.scheduler(time.time, time.sleep)
-app = Flask(__name__)
-DELETED_NEWS = set()
 
-UPDATES = []
-NEWS_ARTICLES = []
+
+
+from covid_data_handler import config_schedule_updates , make_data_update , cancel_scheduled_update
+from covid_news_handling import update_news ,config_news_update
+
+
+
+app = Flask(__name__)
 
 
 @app.route('/')
@@ -26,11 +29,12 @@ def program_start():
 
 @app.route('/index')
 def index():
-    s.run(blocking=False)
-    global DELETED_NEWS
-    global UPDATES
+    import global_variables
 
-    s.run(blocking=False)
+    global_variables.SCHEDULER.run(blocking= False)
+
+
+
     #look at request and get all parameters
 
     update_time = request.args.get('update')
@@ -46,43 +50,95 @@ def index():
 
     news_update = request.args.get('news')
 
+
     if(covid_update):
         #schedule covid update
-        pass
+        config_schedule_updates(update_time,update_name,is_repeated)
+
+
     if(news_update):
-        #schedule news_update
-        pass
+        if(covid_update):
+            with_covid = True
+        else:
+            with_covid = False
+        config_news_update(update_time, update_name , is_repeated , with_covid)
 
 
     update_deleted = request.args.get('update_item')
-    for update in UPDATES:
-        if update['title'] == update_deleted:
-            UPDATES.remove(update)
+    if(update_deleted):
+        for update in global_variables.UPDATES:
+            if update['title'] == update_deleted:
+                global_variables.UPDATES.remove(update)
+        if(update_deleted == "INITIAL UPDATE"):
+
+            ready_update = False # start to check whether any of old UPDATES remained. If not make another 'INITIAL UPDATE'
+            for update in global_variables.UPDATES:
+                title = update['title']
+                if not title.endswith("_scheduled"):
+                    ready_update = True
+            if not ready_update or len(global_variables.UPDATES == 0): #case where no updates left - make another update
+                make_data_update("INITIAL UPDATE") # make a state as if programm hasnt started
+
+
+
+        elif(update_deleted.endswith("_scheduled")):
+            cancel_scheduled_update(update_deleted)
+
 
 
 
     news_deleted = request.args.get('notif')
-    DELETED_NEWS.add(news_deleted)
+    if(news_deleted):
+        global_variables.DELETED_NEWS.add(news_deleted)
+        for news in global_variables.NEWS_ARTICLES:
+            if news['title'] == news_deleted:
+                global_variables.NEWS_ARTICLES.remove(news)
+
+    if(not (update_name or news_deleted or update_deleted or global_variables.HAS_BEEN_STARTED ) ):
 
 
-    #schedule all updates based on parameters
+        global_variables.HAS_BEEN_STARTED = True
+
+
+        #first time case
+        make_data_update("INITIAL UPDATE")
+        update_news()
+
+    #
 
     #get an access to global sets
+    render_information = get_data_json()
 
 
     #render the page
-    return render_template("index.html",)
+    return render_template("index.html",**render_information)
 
 
+def get_data_json() -> dict:
+    import global_variables
 
-
-def get_data_json():
-    updates = UPDATES
-    news = NEWS_ARTICLES
     json = dict()
 
-    if (len(UPDATES) == 0):#consider base cases make updates
-        json['updates'] = [{'title': "None", 'content': "No updates has been scheduled"}]
-        json['news'] = [{'title': "None", 'content': 'No updates has been scheduled'}]
-    most_recent_update = updates[-1]
+    json['news_articles'] =   global_variables.NEWS_ARTICLES
+    json['updates'] = global_variables.UPDATES
+
+    for update in reversed(global_variables.UPDATES):
+        if(type(update['content']) == type(dict())):
+            most_recent_update = update
+            break
+
+
     json['title'] = most_recent_update['title']
+
+    json['location'] = 'Exeter'
+
+    json['nation_location'] = 'England'
+
+    last_content = most_recent_update['content']
+    json.update(last_content)
+
+    return json
+
+if __name__ == '__main__':
+
+    app.run(debug=True)
