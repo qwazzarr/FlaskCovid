@@ -1,3 +1,9 @@
 {
-  "news_api": "e1cb21ee37b14482a4a0b9c2356f758a"
+  "news_api": "e1cb21ee37b14482a4a0b9c2356f758a",
+  "location" : "Exeter",
+  "location_type" : "ltla",
+  "nation" : "england",
+  "debug" : true
+
+
 }

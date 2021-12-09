@@ -68,6 +68,12 @@ def schedule_news_updates(update_interval, update_name, repeated , with_covid : 
 
     event = global_variables.SCHEDULER.enter(update_interval,  1, update_news, kwargs={'update_name': update_name , 'with_covid':with_covid})
 
+    if (repeated):
+        event_2 = global_variables.SCHEDULER.enter(update_interval + 86400, 0, schedule_news_updates,
+                                                   kwargs={'update_interval': update_interval,
+                                                           'update_name': update_name, 'repeated': repeated})
+        global_variables.SCHEDULED_EVENTS.append(event_2)
+
     global_variables.SCHEDULED_EVENTS.append(event)
 
     global_variables.SCHEDULER.run(blocking=False)
@@ -92,7 +98,10 @@ def config_news_update(update_time : str ,update_name: str , repeated : bool , w
 
 
 
-    guessed_time = update_time.split(":")
+    if(update_time == ''):
+        guessed_time = simple_time
+    else:
+        guessed_time = update_time.split(":")
 
 
     hours, minutes, seconds = int(simple_time[0]), int(simple_time[1]), int(simple_time[2])

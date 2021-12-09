@@ -329,3 +329,156 @@ OSError: [Errno 41] Protocol wrong type for socket
 12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 12/05/2021 01:28:17 PM 127.0.0.1 - - [05/Dec/2021 13:28:17] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
 12/05/2021 01:30:05 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_data_handler.py', reloading
+12/06/2021 01:42:17 AM Program started
+12/06/2021 01:42:31 AM 127.0.0.1 - - [06/Dec/2021 01:42:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/06/2021 01:42:31 AM 127.0.0.1 - - [06/Dec/2021 01:42:31] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/06/2021 01:42:31 AM 127.0.0.1 - - [06/Dec/2021 01:42:31] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/06/2021 01:42:31 AM 127.0.0.1 - - [06/Dec/2021 01:42:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/06/2021 01:42:32 AM 127.0.0.1 - - [06/Dec/2021 01:42:32] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/06/2021 01:42:36 AM Program started
+12/06/2021 01:42:36 AM 127.0.0.1 - - [06/Dec/2021 01:42:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/06/2021 01:42:36 AM 127.0.0.1 - - [06/Dec/2021 01:42:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/06/2021 01:42:36 AM 127.0.0.1 - - [06/Dec/2021 01:42:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/06/2021 01:42:36 AM 127.0.0.1 - - [06/Dec/2021 01:42:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/06/2021 01:42:36 AM 127.0.0.1 - - [06/Dec/2021 01:42:36] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/06/2021 01:42:39 AM Program started
+12/06/2021 01:42:39 AM 127.0.0.1 - - [06/Dec/2021 01:42:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/06/2021 01:42:39 AM 127.0.0.1 - - [06/Dec/2021 01:42:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/06/2021 01:42:39 AM 127.0.0.1 - - [06/Dec/2021 01:42:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/06/2021 01:42:39 AM 127.0.0.1 - - [06/Dec/2021 01:42:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/06/2021 01:42:39 AM 127.0.0.1 - - [06/Dec/2021 01:42:39] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/06/2021 01:42:47 AM Program started
+12/06/2021 01:43:19 AM 127.0.0.1 - - [06/Dec/2021 01:43:19] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+12/06/2021 01:43:19 AM 127.0.0.1 - - [06/Dec/2021 01:43:19] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/06/2021 01:43:19 AM 127.0.0.1 - - [06/Dec/2021 01:43:19] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/06/2021 01:43:19 AM 127.0.0.1 - - [06/Dec/2021 01:43:19] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/06/2021 01:43:19 AM 127.0.0.1 - - [06/Dec/2021 01:43:19] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/06/2021 01:43:22 AM 127.0.0.1 - - [06/Dec/2021 01:43:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+12/06/2021 01:43:23 AM 127.0.0.1 - - [06/Dec/2021 01:43:23] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/06/2021 01:43:23 AM 127.0.0.1 - - [06/Dec/2021 01:43:23] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/06/2021 01:43:23 AM 127.0.0.1 - - [06/Dec/2021 01:43:23] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/06/2021 01:43:23 AM 127.0.0.1 - - [06/Dec/2021 01:43:23] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/06/2021 01:43:24 AM 127.0.0.1 - - [06/Dec/2021 01:43:24] "GET / HTTP/1.1" 200 -
+12/07/2021 07:22:56 PM Program started
+12/07/2021 07:22:57 PM 127.0.0.1 - - [07/Dec/2021 19:22:57] "GET / HTTP/1.1" 200 -
+12/07/2021 07:22:57 PM 127.0.0.1 - - [07/Dec/2021 19:22:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/07/2021 07:22:58 PM 127.0.0.1 - - [07/Dec/2021 19:22:58] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/07/2021 07:23:14 PM 127.0.0.1 - - [07/Dec/2021 19:23:14] "GET /index?update=01%3A20&two=✅✅✅&covid-data=covid-data&news=news HTTP/1.1" 200 -
+12/07/2021 07:23:14 PM 127.0.0.1 - - [07/Dec/2021 19:23:14] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:51:46 PM Program started
+12/09/2021 02:51:47 PM 127.0.0.1 - - [09/Dec/2021 14:51:47] "GET / HTTP/1.1" 200 -
+12/09/2021 02:51:47 PM 127.0.0.1 - - [09/Dec/2021 14:51:47] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:51:48 PM 127.0.0.1 - - [09/Dec/2021 14:51:48] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:51:48 PM 127.0.0.1 - - [09/Dec/2021 14:51:48] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+12/09/2021 02:51:48 PM 127.0.0.1 - - [09/Dec/2021 14:51:48] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+12/09/2021 02:51:57 PM 127.0.0.1 - - [09/Dec/2021 14:51:57] "GET /index?update=&two=ааа&repeat=repeat HTTP/1.1" 200 -
+12/09/2021 02:51:57 PM 127.0.0.1 - - [09/Dec/2021 14:51:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:52:24 PM 127.0.0.1 - - [09/Dec/2021 14:52:24] "GET /index?update_item=INITIAL+UPDATE HTTP/1.1" 200 -
+12/09/2021 02:52:24 PM 127.0.0.1 - - [09/Dec/2021 14:52:24] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:52:27 PM 127.0.0.1 - - [09/Dec/2021 14:52:27] "GET /index?notif=Austria+introduces+fines+up+to+€3600+for+the+unvaccinated HTTP/1.1" 200 -
+12/09/2021 02:52:27 PM 127.0.0.1 - - [09/Dec/2021 14:52:27] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:52:29 PM 127.0.0.1 - - [09/Dec/2021 14:52:29] "GET /index?notif=Austria+introduces+fines+up+to+€3600+for+the+unvaccinated HTTP/1.1" 200 -
+12/09/2021 02:52:29 PM 127.0.0.1 - - [09/Dec/2021 14:52:29] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:52:50 PM 127.0.0.1 - - [09/Dec/2021 14:52:50] "[35m[1mGET /index?update=&two=kekw&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/09/2021 02:52:50 PM 127.0.0.1 - - [09/Dec/2021 14:52:50] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/09/2021 02:52:50 PM 127.0.0.1 - - [09/Dec/2021 14:52:50] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/09/2021 02:52:50 PM 127.0.0.1 - - [09/Dec/2021 14:52:50] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/09/2021 02:52:50 PM 127.0.0.1 - - [09/Dec/2021 14:52:50] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/09/2021 02:53:22 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_news_handling.py', reloading
+12/09/2021 02:55:06 PM Program started
+12/09/2021 02:55:06 PM 127.0.0.1 - - [09/Dec/2021 14:55:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+12/09/2021 02:55:06 PM 127.0.0.1 - - [09/Dec/2021 14:55:06] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:55:06 PM 127.0.0.1 - - [09/Dec/2021 14:55:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/09/2021 02:55:06 PM 127.0.0.1 - - [09/Dec/2021 14:55:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/09/2021 02:55:06 PM 127.0.0.1 - - [09/Dec/2021 14:55:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/09/2021 02:55:06 PM 127.0.0.1 - - [09/Dec/2021 14:55:06] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/09/2021 02:55:07 PM 127.0.0.1 - - [09/Dec/2021 14:55:07] "GET /index HTTP/1.1" 200 -
+12/09/2021 02:55:07 PM Error on request:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 311, in execute
+    write(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 287, in write
+    self.end_headers()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/server.py", line 528, in end_headers
+    self.flush_headers()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/server.py", line 532, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socketserver.py", line 799, in write
+    self._sock.sendall(b)
+OSError: [Errno 41] Protocol wrong type for socket
+12/09/2021 02:56:55 PM Program started
+12/09/2021 02:56:57 PM 127.0.0.1 - - [09/Dec/2021 14:56:57] "GET / HTTP/1.1" 200 -
+12/09/2021 02:56:57 PM 127.0.0.1 - - [09/Dec/2021 14:56:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:57:01 PM 127.0.0.1 - - [09/Dec/2021 14:57:01] "[35m[1mGET /index?update=&two=kekw&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/09/2021 02:57:01 PM 127.0.0.1 - - [09/Dec/2021 14:57:01] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/09/2021 02:57:01 PM 127.0.0.1 - - [09/Dec/2021 14:57:01] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/09/2021 02:57:01 PM 127.0.0.1 - - [09/Dec/2021 14:57:01] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/09/2021 02:57:01 PM 127.0.0.1 - - [09/Dec/2021 14:57:01] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/09/2021 02:57:41 PM Program started
+12/09/2021 02:57:42 PM 127.0.0.1 - - [09/Dec/2021 14:57:42] "GET / HTTP/1.1" 200 -
+12/09/2021 02:57:42 PM 127.0.0.1 - - [09/Dec/2021 14:57:42] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 02:57:47 PM 127.0.0.1 - - [09/Dec/2021 14:57:47] "[35m[1mGET /index?update=&two=kekw&covid-data=covid-data HTTP/1.1[0m" 500 -
+12/09/2021 02:57:47 PM 127.0.0.1 - - [09/Dec/2021 14:57:47] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+12/09/2021 02:57:47 PM 127.0.0.1 - - [09/Dec/2021 14:57:47] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+12/09/2021 02:57:47 PM 127.0.0.1 - - [09/Dec/2021 14:57:47] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+12/09/2021 02:57:47 PM 127.0.0.1 - - [09/Dec/2021 14:57:47] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+12/09/2021 02:57:57 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/covid_news_handling.py', reloading
+12/09/2021 03:40:54 PM Program started
+12/09/2021 03:40:55 PM 127.0.0.1 - - [09/Dec/2021 15:40:55] "GET / HTTP/1.1" 200 -
+12/09/2021 03:40:56 PM 127.0.0.1 - - [09/Dec/2021 15:40:56] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 03:41:57 PM 127.0.0.1 - - [09/Dec/2021 15:41:57] "GET /index HTTP/1.1" 200 -
+12/09/2021 03:41:57 PM 127.0.0.1 - - [09/Dec/2021 15:41:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 03:42:57 PM 127.0.0.1 - - [09/Dec/2021 15:42:57] "GET /index HTTP/1.1" 200 -
+12/09/2021 03:42:57 PM 127.0.0.1 - - [09/Dec/2021 15:42:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 03:42:57 PM 127.0.0.1 - - [09/Dec/2021 15:42:57] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+12/09/2021 03:43:24 PM  * Detected change in '/Users/arseniikhmara/Documents/ECM1400 programming/FlaskCoursework/FlaskCovid/main.py', reloading
+12/09/2021 04:07:23 PM Program started
+12/09/2021 04:07:23 PM 127.0.0.1 - - [09/Dec/2021 16:07:23] "GET / HTTP/1.1" 200 -
+12/09/2021 04:07:23 PM 127.0.0.1 - - [09/Dec/2021 16:07:23] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:07:59 PM 127.0.0.1 - - [09/Dec/2021 16:07:59] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:07:59 PM 127.0.0.1 - - [09/Dec/2021 16:07:59] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:08:23 PM 127.0.0.1 - - [09/Dec/2021 16:08:23] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:08:23 PM 127.0.0.1 - - [09/Dec/2021 16:08:23] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:08:59 PM 127.0.0.1 - - [09/Dec/2021 16:08:59] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:08:59 PM 127.0.0.1 - - [09/Dec/2021 16:08:59] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:09:23 PM 127.0.0.1 - - [09/Dec/2021 16:09:23] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:09:23 PM 127.0.0.1 - - [09/Dec/2021 16:09:23] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:09:59 PM 127.0.0.1 - - [09/Dec/2021 16:09:59] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:10:00 PM 127.0.0.1 - - [09/Dec/2021 16:10:00] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:10:24 PM 127.0.0.1 - - [09/Dec/2021 16:10:24] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:10:24 PM 127.0.0.1 - - [09/Dec/2021 16:10:24] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:11:00 PM 127.0.0.1 - - [09/Dec/2021 16:11:00] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:11:00 PM 127.0.0.1 - - [09/Dec/2021 16:11:00] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:11:24 PM 127.0.0.1 - - [09/Dec/2021 16:11:24] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:11:24 PM 127.0.0.1 - - [09/Dec/2021 16:11:24] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:12:00 PM 127.0.0.1 - - [09/Dec/2021 16:12:00] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:12:01 PM 127.0.0.1 - - [09/Dec/2021 16:12:01] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:12:24 PM 127.0.0.1 - - [09/Dec/2021 16:12:24] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:12:24 PM 127.0.0.1 - - [09/Dec/2021 16:12:24] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:14:14 PM Program started
+12/09/2021 04:14:16 PM 127.0.0.1 - - [09/Dec/2021 16:14:16] "GET / HTTP/1.1" 200 -
+12/09/2021 04:14:16 PM 127.0.0.1 - - [09/Dec/2021 16:14:16] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:14:40 PM 127.0.0.1 - - [09/Dec/2021 16:14:40] "GET /index?update=&two=fuck_you_mum🤫&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+12/09/2021 04:14:40 PM 127.0.0.1 - - [09/Dec/2021 16:14:40] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:15:40 PM 127.0.0.1 - - [09/Dec/2021 16:15:40] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:15:40 PM 127.0.0.1 - - [09/Dec/2021 16:15:40] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:16:10 PM 127.0.0.1 - - [09/Dec/2021 16:16:10] "GET /index?update_item=fuck_you_mum🤫 HTTP/1.1" 200 -
+12/09/2021 04:16:10 PM 127.0.0.1 - - [09/Dec/2021 16:16:10] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:16:13 PM 127.0.0.1 - - [09/Dec/2021 16:16:13] "GET /index?update_item=fuck_you_mum🤫_scheduled HTTP/1.1" 200 -
+12/09/2021 04:16:13 PM 127.0.0.1 - - [09/Dec/2021 16:16:13] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:16:33 PM 127.0.0.1 - - [09/Dec/2021 16:16:33] "GET /index?update=14%3A30&two=kuku%21&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+12/09/2021 04:16:33 PM 127.0.0.1 - - [09/Dec/2021 16:16:33] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:16:45 PM 127.0.0.1 - - [09/Dec/2021 16:16:45] "GET /index?update=16%3A17&two=rrr&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+12/09/2021 04:16:45 PM 127.0.0.1 - - [09/Dec/2021 16:16:45] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:17:46 PM 127.0.0.1 - - [09/Dec/2021 16:17:46] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:17:46 PM 127.0.0.1 - - [09/Dec/2021 16:17:46] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:17:50 PM 127.0.0.1 - - [09/Dec/2021 16:17:50] "GET /index?update_item=rrr HTTP/1.1" 200 -
+12/09/2021 04:17:50 PM 127.0.0.1 - - [09/Dec/2021 16:17:50] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:18:14 PM 127.0.0.1 - - [09/Dec/2021 16:18:14] "GET /index?update_item=rrr HTTP/1.1" 200 -
+12/09/2021 04:18:14 PM 127.0.0.1 - - [09/Dec/2021 16:18:14] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:18:16 PM 127.0.0.1 - - [09/Dec/2021 16:18:16] "GET /index?update_item=rrr HTTP/1.1" 200 -
+12/09/2021 04:18:17 PM 127.0.0.1 - - [09/Dec/2021 16:18:17] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+12/09/2021 04:19:17 PM 127.0.0.1 - - [09/Dec/2021 16:19:17] "GET /index HTTP/1.1" 200 -
+12/09/2021 04:19:17 PM 127.0.0.1 - - [09/Dec/2021 16:19:17] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -

@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import render_template, url_for
 from flask import Flask
 from flask import request
 import time
@@ -17,6 +17,7 @@ from covid_news_handling import update_news ,config_news_update
 
 
 app = Flask(__name__)
+
 
 
 @app.route('/')
@@ -133,6 +134,8 @@ def get_data_json() -> dict:
     json['location'] = 'Exeter'
 
     json['nation_location'] = 'England'
+    json['image'] = 'favicon.ico'
+    json['favicon'] = 'favicon.ico'
 
     last_content = most_recent_update['content']
     json.update(last_content)
@@ -140,5 +143,7 @@ def get_data_json() -> dict:
     return json
 
 if __name__ == '__main__':
-
-    app.run(debug=True)
+    with open("config.json", "r") as f:
+        config = json.load(f)
+    debug = config['debug']
+    app.run(debug = debug)

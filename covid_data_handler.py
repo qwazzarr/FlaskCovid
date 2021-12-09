@@ -5,6 +5,7 @@ from uk_covid19 import Cov19API
 
 import sched
 import time
+import json
 
 
 
@@ -133,7 +134,7 @@ def nation_cases_parse(nation_data : dict) -> list:
 
 
 
-def make_data_update(update_name : str) -> None:
+def make_data_update(update_name : str , repeated : str = "") -> None:
     import global_variables
     #call combine_covid_api to get an update data
     update_content = combine_covid_API()
@@ -152,13 +153,17 @@ def make_data_update(update_name : str) -> None:
 
 
     for i in range (len(global_variables.UPDATES)):
+        if(repeated):
+            continue
         update = global_variables.UPDATES[i]
         if(update['title'] == update_name+"_scheduled"):
             global_variables.UPDATES[i] = {'title':update_name, 'content': json_content}
 
 
+
             for event in global_variables.SCHEDULED_EVENTS:
                 if event.kwargs['update_name'] == update_name:
+
                     global_variables.SCHEDULED_EVENTS.remove(event)
             return
 
@@ -176,8 +181,15 @@ def make_data_update(update_name : str) -> None:
 
 def combine_covid_API() -> list:
     #call twice covid_api_request
-    json_exeter_data = covid_API_request()
-    json_england_data = json.loads(json.dumps(covid_API_request("england","nation")))
+    with open("config.json", "r") as f:
+        config = json.load(f)
+
+    location = config['location']
+    location_type = config['location_type']
+    nation = config['nation']
+
+    json_exeter_data = covid_API_request(location,location_type)
+    json_england_data = json.loads(json.dumps(covid_API_request(nation,"nation")))
     #change data so it can apply to covid_csv_data
     exeter_csv_data = []
     for day in json_exeter_data['data']:
@@ -216,9 +228,11 @@ def cancel_scheduled_update(update_name : str) -> None:
             global_variables.SCHEDULER.cancel(event)
             global_variables.SCHEDULED_EVENTS.remove(event)
 
-def config_schedule_updates(update_time : str ,update_name: str , repeated : bool) -> None:
+def config_schedule_updates(update_time : str ,update_name: str , repeated : str) -> None:
     import global_variables
     #change time to a time_difference
+
+
 
     loc_time = time.asctime()
     loc_time = loc_time.split()
@@ -228,10 +242,15 @@ def config_schedule_updates(update_time : str ,update_name: str , repeated : boo
 
     scheduled_update_content = f"Update is planned at {update_time}"
 
+
+    if (update_time == ''):
+
+        guessed_time = simple_time
+        scheduled_update_content = f"Update is planned at {simple_time[0]+':'+simple_time[1]}"
+    else:
+        guessed_time = update_time.split(":")
+
     global_variables.UPDATES.append({"title": scheduled_update_name, "content": scheduled_update_content})
-
-
-    guessed_time = update_time.split(":")
 
 
 
@@ -276,7 +295,13 @@ def schedule_covid_updates(update_interval, update_name , repeated = False):
     import global_variables
 
 
-    event = global_variables.SCHEDULER.enter(update_interval,0,make_data_update , kwargs= {'update_name' : update_name})
+    event = global_variables.SCHEDULER.enter(update_interval,0,make_data_update , kwargs= {'update_name' : update_name , 'repeated':repeated})
+
+    if(repeated):
+        event_2 = global_variables.SCHEDULER.enter(update_interval + 86400 , 0 , schedule_covid_updates,
+                                                   kwargs= {'update_interval' : update_interval ,
+                                                            'update_name': update_name, 'repeated':repeated})
+        global_variables.SCHEDULED_EVENTS.append(event_2)
 
     global_variables.SCHEDULED_EVENTS.append(event)
 
@@ -292,4 +317,3 @@ if __name__ == "__main__" :
 
 
 
-    print(combine_covid_API())
