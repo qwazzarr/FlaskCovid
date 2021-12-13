@@ -31,8 +31,19 @@
  <li> Set <b>repeated</b> updates , so they can repeat every day. </li>
  <li> You can delete scheduled updates or previous ones. </li>
  <li> In order to make an instant update , do not input time or input your current time</li>
- </ul>
+ </br>
+ <li> To test an app run ```pytest testing_module.py``` with installed pytest</li>
+ </ul>  
  
+ <br/>
+ 
+ 
+ Everybody is welcomed for further development.
+ 
+
+Module leader: Matt Collison
+
+
 
  
  

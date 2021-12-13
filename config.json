@@ -3,7 +3,8 @@
   "location" : "Exeter",
   "location_type" : "ltla",
   "nation" : "england",
-  "debug" : true
+  "debug" : true,
+  "topics" : "Covid COVID-19 coronavirus"
 
 
 }
