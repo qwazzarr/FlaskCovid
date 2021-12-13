@@ -4,13 +4,13 @@
  
  <b>Usage:</b>
  
- To start the app you need to start main.py file with flask module imported.
+ To start the app you need to unzip and start main.py file with flask module imported.
  <br/>
  ```python main.py```
  
  
  <b>Requirements:</b>
- Python 3.7.4 (default, Aug 13 2019, 15:17:50) 
+ Python 3.7.4 or higher
  <ul>
  <li>Flask==1.1.1</li>
  <li>requests==2.22.0</li>
