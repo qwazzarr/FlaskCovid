@@ -7,7 +7,7 @@ from time_configure import time_configure
 
 
 
-def news_API_request(covid_terms: str = "Covid COVID-19 coronavirus"):
+def news_API_request(covid_terms: str = "Covid COVID-19 coronavirus") -> dict:
     """
     Access current news data using the requests module and the News API (https://newsapi.org/)
     :param covid_terms:
@@ -15,6 +15,7 @@ def news_API_request(covid_terms: str = "Covid COVID-19 coronavirus"):
 
     """
     logging.basicConfig(filename='sys.log', format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+
 
     with open("config.json", "r") as f:
         config = json.load(f)
@@ -90,7 +91,7 @@ def update_news(update_name: str = "default", with_covid: bool = False) -> None:
     return
 
 
-def schedule_news_updates(update_interval: int, update_name: str, repeated: str, with_covid: bool) -> None:
+def schedule_news_updates(update_interval: int, update_name: str , repeated: str , with_covid: bool) -> None:
     """Function uses the sched module to schedule updates to the news_data at the given time interval. It appends events
        to global variable SCHEDULED_EVENTS. For repeated functions it schedule a recursive in 24h interval with the same
         parameters. Function is used only for the case when there is no covid_updates scheduled
@@ -116,7 +117,7 @@ def schedule_news_updates(update_interval: int, update_name: str, repeated: str,
     global_variables.SCHEDULER.run(blocking=False)
 
 
-def config_news_update(update_time: str, update_name: str, repeated: str, with_covid: bool) -> None:
+def config_news_update(update_time: str, update_name: str = "default", repeated: str = "", with_covid: bool = True) -> None:
     """Function uses update_time in format 'Hours:Minutes' to call time_difference module.
     Then it calls schedule_news_updates. Function is not reponsible for updating global variable UPDATES
     except for the case when covid updates are not needed
@@ -149,4 +150,4 @@ def config_news_update(update_time: str, update_name: str, repeated: str, with_c
 
 
 if __name__ == "__main__":
-    update_news()
+    print("Covid_news_handling has been called")

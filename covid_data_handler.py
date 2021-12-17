@@ -111,7 +111,6 @@ def nation_cases_parse(nation_data: dict) -> tuple:
     total_hospital_cases_over_week = 0
     total_deaths = 0
     cumCasesfound = False  # flag to find the newest value
-    final_data = []
     LIMIT_DAYS = 8
 
     for i in range(1, len(days)):  # Skip first day due to incomplete data
@@ -138,7 +137,6 @@ def nation_cases_parse(nation_data: dict) -> tuple:
             if not total_deaths:
                 logging.critical("No information about total deaths has been found.")
                 total_deaths = 0
-                # log , not found
             break  # break as we are not interested in later data
 
     return total_cases_over_week, total_hospital_cases_over_week, total_deaths
@@ -268,7 +266,6 @@ def config_schedule_updates(update_time: str, update_name: str, repeated: str = 
 
     global_variables.UPDATES.append({"title": scheduled_update_name, "content": scheduled_update_content})
 
-    # log that new update is getting processed
 
     schedule_covid_updates(update_interval, update_name, repeated)
 
@@ -294,7 +291,4 @@ def schedule_covid_updates(update_interval: int, update_name: str, repeated: str
 
 
 if __name__ == "__main__":
-    data = parse_csv_data("nation_2021 -10-28.csv")
-
-    assert len(data) == 639
-    combine_covid_API()
+    print("covid_data_handler has been called")

@@ -38,7 +38,7 @@
  <br/>
  
  
- Everybody is welcomed for further development.
+ Everybody is welcomed for further development. Project is posted at https://github.com/qwazzarr/FlaskCovid.git
  
 
 Module leader: Matt Collison

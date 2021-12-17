@@ -125,7 +125,6 @@ if __name__ == '__main__':
         CONFIG = json.load(f)
 
     logging.getLogger('werkzeug').disabled = True
-    os.environ['WERKZEUG_RUN_MAIN'] = 'true'
 
     DEBUG = CONFIG['debug']
-    app.run(debug=False)
+    app.run(debug=DEBUG)

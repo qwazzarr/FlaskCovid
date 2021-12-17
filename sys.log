@@ -363,3 +363,88 @@ UnboundLocalError: local variable 'most_recent_update' referenced before assignm
 12/14/2021 02:44:17 AM Update is deleted: aga1_scheduled
 12/14/2021 02:44:17 AM Scheduled event has been canceled
 12/14/2021 02:44:19 AM Update is deleted: aga1
+12/14/2021 03:10:58 AM Making an update
+12/14/2021 03:10:59 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:10:59 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/14/2021 03:10:59 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:10:59 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/14/2021 03:10:59 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:00 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/14/2021 03:11:00 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:00 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/14/2021 03:11:00 AM Starting new HTTPS connection (1): newsapi.org:443
+12/14/2021 03:11:01 AM https://newsapi.org:443 "GET /v2/everything?q=Covid%20OR%20COVID-19%20OR%20coronavirus&sortBy=publishedAt&language=en&apiKey=e1cb21ee37b14482a4a0b9c2356f758a HTTP/1.1" 200 None
+12/14/2021 03:11:12 AM Covid update is scheduled
+12/14/2021 03:11:12 AM Making an update
+12/14/2021 03:11:12 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:12 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/14/2021 03:11:12 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:13 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/14/2021 03:11:13 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:13 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/14/2021 03:11:13 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:13 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/14/2021 03:11:13 AM News update is scheduled
+12/14/2021 03:11:13 AM Starting new HTTPS connection (1): newsapi.org:443
+12/14/2021 03:11:14 AM https://newsapi.org:443 "GET /v2/everything?q=Covid%20OR%20COVID-19%20OR%20coronavirus&sortBy=publishedAt&language=en&apiKey=e1cb21ee37b14482a4a0b9c2356f758a HTTP/1.1" 200 None
+12/14/2021 03:11:16 AM Update is deleted: INITIAL UPDATE
+12/14/2021 03:11:16 AM No updates are left. Making a new initial update
+12/14/2021 03:11:16 AM No updates are left. Making a new initial update
+12/14/2021 03:11:33 AM Covid update is scheduled
+12/14/2021 03:11:33 AM Making an update
+12/14/2021 03:11:33 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:33 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/14/2021 03:11:34 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:34 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/14/2021 03:11:34 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:34 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/14/2021 03:11:34 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/14/2021 03:11:34 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/14/2021 03:11:34 AM News update is scheduled
+12/14/2021 03:11:34 AM Starting new HTTPS connection (1): newsapi.org:443
+12/14/2021 03:11:35 AM https://newsapi.org:443 "GET /v2/everything?q=Covid%20OR%20COVID-19%20OR%20coronavirus&sortBy=publishedAt&language=en&apiKey=e1cb21ee37b14482a4a0b9c2356f758a HTTP/1.1" 200 None
+12/14/2021 03:11:53 AM News article is deleted : Woj on the NBA postponing 2 Bulls games due to health & safety protocol | NBA Today - ESPN
+12/14/2021 03:11:54 AM News article is deleted : EUIPO Study Indicates It's Likely That Piracy Traffic Has Decreased Significantly, Even During The Pandemic
+12/14/2021 03:11:55 AM News article is deleted : Covid-19 Delta outbreak: Christchurch resident vaccinated with used needle
+12/14/2021 03:11:55 AM News article is deleted : Rams add star cornerback Jalen Ramsey, Tyler Higbee to COVID-19 list, they'll miss Week 14 'MNF' at Cardinals - CBS Sports
+12/14/2021 03:11:56 AM News article is deleted : Air Force discharges 27 for refusal to get COVID vaccine
+12/14/2021 03:11:57 AM News article is deleted : Greece: 3 jailed pending trial for attack over virus checks
+12/14/2021 03:11:58 AM News article is deleted : ‘RHOBH’ partially pauses production due to positive COVID tests
+12/16/2021 11:39:00 AM Program has been started
+12/16/2021 11:39:00 AM Making an update
+12/16/2021 11:39:00 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:00 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/16/2021 11:39:00 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:01 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/16/2021 11:39:01 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:01 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/16/2021 11:39:01 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:02 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/16/2021 11:39:02 AM Starting new HTTPS connection (1): newsapi.org:443
+12/16/2021 11:39:03 AM https://newsapi.org:443 "GET /v2/everything?q=Covid%20OR%20COVID-19%20OR%20coronavirus&sortBy=publishedAt&language=en&apiKey=e1cb21ee37b14482a4a0b9c2356f758a HTTP/1.1" 200 None
+12/16/2021 11:39:07 AM Update is deleted: INITIAL UPDATE
+12/16/2021 11:39:07 AM Making an update
+12/16/2021 11:39:07 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:07 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/16/2021 11:39:07 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:07 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/16/2021 11:39:07 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:08 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/16/2021 11:39:08 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:39:08 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/16/2021 11:39:15 AM Covid update is scheduled
+12/16/2021 11:39:15 AM News update is scheduled
+12/16/2021 11:40:15 AM Making an update
+12/16/2021 11:40:20 AM Making an update
+12/16/2021 11:40:21 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:40:21 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/16/2021 11:40:21 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:40:21 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/16/2021 11:40:21 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:40:21 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+12/16/2021 11:40:21 AM Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+12/16/2021 11:40:22 AM https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3Dengland&structure=%7B%22areaName%22%3A%22areaName%22%2C%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesBySpecimenDate%22%3A%22cumCasesBySpecimenDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+12/16/2021 11:40:22 AM Starting new HTTPS connection (1): newsapi.org:443
+12/16/2021 11:40:23 AM https://newsapi.org:443 "GET /v2/everything?q=Covid%20OR%20COVID-19%20OR%20coronavirus&sortBy=publishedAt&language=en&apiKey=e1cb21ee37b14482a4a0b9c2356f758a HTTP/1.1" 200 None
+12/16/2021 11:40:29 AM Covid update is scheduled
+12/16/2021 11:40:29 AM News update is scheduled
